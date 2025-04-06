@@ -3,3 +3,4 @@ requests
 langchain
 langchain-community
 langchain-groq
+beautifulsoup4
