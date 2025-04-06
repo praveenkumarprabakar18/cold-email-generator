@@ -7,7 +7,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 # ---- Page Setup ----
 st.set_page_config(page_title="TailorMailer.ai", layout="wide")
 st.title("🎯 TailorMailer.ai")
-st.markdown("<h4 style='color: gray; margin-top: -10px;'>Craft tailored emails for your Product in seconds! </h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='color: gray; margin-top: -10px;'>Craft tailored product emails for your Clients in seconds! </h4>", unsafe_allow_html=True)
 
 # ---- LLM Setup ----
 llm = ChatGroq(
