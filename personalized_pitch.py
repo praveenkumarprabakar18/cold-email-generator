@@ -5,8 +5,8 @@ from langchain_core.prompts import PromptTemplate
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # ---- Page Setup ----
-st.set_page_config(page_title="B2B Personalized Email Generator", layout="wide")
-st.title("🏢 AI-Powered B2B Outreach Email Generator")
+st.set_page_config(page_title="TailorMailer.ai", layout="wide")
+st.title("🏢 Craft tailored emails for your Product!")
 
 # ---- LLM Setup ----
 llm = ChatGroq(
