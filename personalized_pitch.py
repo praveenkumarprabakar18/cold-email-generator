@@ -41,9 +41,10 @@ email_prompt = PromptTemplate.from_template(
 
     ### INSTRUCTION:
     You are Praveen, a Business Development Executive at IBM.
-    Write a personalized cold email to the client introducing IBM and explaining
+    Write a short personalized cold email to the client introducing IBM and explaining
     how it can help them based on the client company summary & our product summary.
-    Be clear, professional, helpful, and end with a soft call to action.
+    Be clear, professional, helpful, and end with a soft call to action. Do not use emojis, bold letters. Treat it like you are writing a professional emaill
+    in outlook.
 
     ### COLD EMAIL:
     """
