@@ -13,7 +13,7 @@ st.markdown("<h4 style='color: gray; margin-top: -10px;'>Craft tailored product 
 llm = ChatGroq(
     temperature=0,
     groq_api_key=st.secrets["GROQ_API_KEY"],
-    model_name="mistral-saba-24b"
+    model_name="openai/gpt-oss-20b"
 )
 
 # ---- Summarization Prompt ----
